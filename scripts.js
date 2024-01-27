@@ -25,6 +25,7 @@ function validateLogin() {
   
     // Si todo es válido, podrías enviar los datos a tu servidor o hacer lo que necesites
     alert("Inicio de sesión exitoso!");
+    console.log("Usuario:" + username, "Email:" + email, "Contraseña:" + password);
   }
 
 
